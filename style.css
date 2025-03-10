@@ -1,0 +1,105 @@
+* {
+    font-family: "Roboto Flex", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;
+    margin: 0;
+}
+
+#header {
+    background-color:  #E0E0E0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 3px solid #000;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+    padding: 0 20px;
+    transition: background-color 1s, color 1s;
+}
+
+#header:hover {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 5px 4px black
+}
+
+#header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin: 0 15px;
+}
+
+h1 {
+    color: #000;
+    font-size: 24px;
+    margin: 0;
+}
+
+#header:hover h1 {
+    color: #E0E0E0 !important
+}
+
+.title {
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 20px;
+}
+
+nav {
+    margin: 10px 0;
+    padding-top: 12vh;
+}
+
+.content {
+    margin-top: 10vh;
+    padding: 20px;
+}
+
+#footer {
+    background-color: black;
+    margin: 0;
+    padding: 10px 0;
+    color: #E0E0E0;
+}
+
+.footer-left {
+    padding-left: 10px;
+}
+
+.footer-right {
+    padding-right: 10px;
+}
